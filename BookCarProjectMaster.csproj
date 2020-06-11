@@ -195,6 +195,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+<<<<<<< Updated upstream
+=======
+    <Compile Include="Migrations\202006111334437_PhienBanDatabase2.cs" />
+    <Compile Include="Migrations\202006111334437_PhienBanDatabase2.Designer.cs">
+      <DependentUpon>202006111334437_PhienBanDatabase2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\AspNetRole.cs" />
     <Compile Include="Models\AspNetUser.cs" />
@@ -530,6 +538,14 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
+<<<<<<< Updated upstream
+=======
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202006111334437_PhienBanDatabase2.resx">
+      <DependentUpon>202006111334437_PhienBanDatabase2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+>>>>>>> Stashed changes
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
